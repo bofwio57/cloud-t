@@ -1,6 +1,6 @@
 const mariadb = require("mariadb");
 const pool = mariadb.createPool({
-  host: "svc.sel3.cloudtype.app",
+  host: "127.0.0.1",
   user: "root",
   password: "2023",
   connectionLimit: 5,
